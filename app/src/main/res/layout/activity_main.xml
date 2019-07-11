@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="30dp"
+    android:weightSum="2"
+    android:background="@color/colorPrimary"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:onClick="playsound1"
+            android:text="ONE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/blue_button"
+            android:layout_weight="1"
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound3"
+            android:text="THREE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/orange_button"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <Button
+            android:onClick="playsound5"
+            android:text="FIVE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/purple_button"
+            android:layout_weight="1"
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound7"
+            android:text="SEVEN"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:background="@drawable/pink_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound9"
+            android:text="NINE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:background="@drawable/green_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:onClick="playsound2"
+            android:text="TWO"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pink_button"
+            android:layout_weight="1"
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound4"
+            android:text="FOUR"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:background="@drawable/purple_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound6"
+            android:text="SIX"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:background="@drawable/orange_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:onClick="playsound8"
+            android:text="EIGHT"
+            android:textStyle="bold"
+            android:textSize="30dp"
+
+            android:background="@drawable/blue_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:text="TEN"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:onClick="playsound10"
+            android:background="@drawable/purple_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
